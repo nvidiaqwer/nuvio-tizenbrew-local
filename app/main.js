@@ -43,7 +43,7 @@ function loadScript(src) {
 function startNuvioApp() {
   loadScript("nuvio.env.js");
   loadScript("assets/libs/qrcode-generator.js");
-  loadScript("app.bundle.js");
+  loadScript("app.bundle.js?v=2");
 }
 
 if (window.NuvioBootGuard && typeof window.NuvioBootGuard.runCompatibilityGate === "function") {

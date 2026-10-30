@@ -1,10 +1,10 @@
 {
   "name": "nuvio-tizenbrew-local",
-  "version": "1.2.10",
+  "version": "1.2.10-2",
   "description": "Nuvio TV 1.2.10 bundled inside the module (no hosted server), for TizenBrew on older Samsung TVs",
   "packageType": "app",
   "appName": "Nuvio TV (lokálne)",
-  "appPath": "app/index.html?source=tizenbrew&wrapper=tizen",
+  "appPath": "app/index.html?source=tizenbrew&wrapper=tizen&v=2",
   "keys": [
     "MediaPlay",
     "MediaPause",
@@ -17,5 +17,9 @@
   ],
   "evaluateScriptOnDocumentStart": false,
   "license": "GPL-3.0",
-  "files": ["app", "README.md", "LICENSE"]
+  "files": [
+    "app",
+    "README.md",
+    "LICENSE"
+  ]
 }
