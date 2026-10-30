@@ -20,5 +20,7 @@ Tizen 4 TVs (2018) that reject the standalone WGT with `install failed[118012]`.
 In TizenBrew add the GitHub module:
 
 ```text
-nvidiaqwer/nuvio-tizenbrew-local
+nvidiaqwer/nuvio-tizenbrew-local@main
 ```
+
+`@main` always loads the latest commit; without it jsDelivr may keep serving an older version for hours.
